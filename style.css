@@ -1,0 +1,203 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* main code start from here */
+body{
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("images/background1.jpg");
+}
+
+#container{
+	background-color: white;
+	width: 800px;
+}
+
+#head{
+	background-color: steelblue;
+	color: white;
+	text-align: center;
+	font-size: 29px;
+}
+
+#nav{
+	width: 100%;
+	padding: 10px;
+}
+#content{
+	padding: 10px;
+}
+ul {
+	list-style-type: none;
+}
+ul li{
+	list-style: none;
+    display: inline-block;
+    float: left;
+    line-height: 100px
+    width:200px;
+}
+ul li a {
+    display: block;
+    text-decoration: none;  
+    font-size: 20px;
+    font-family: arial;
+    color: #1e1e1e;
+    padding: 0 30px 0 30px;
+    color: white;
+}
+#content .main{
+	background-color: lightblue;
+	margin: 0;
+}
+#content .main h2{
+	font-size: 30px;
+	margin: 5px;
+}
+#content .main p{
+	margin: 10px 5px;
+}
+#topic .option{
+	background-color: lightblue;
+}
+.option{
+	width: 50%;
+	float: left;
+}
+#topic .option h3{
+	background-color: steelblue;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	font-family: "Bauhaus 93";
+}
+#topic .option p{
+	margin: 5px;
+	font-family: "Bradley Hand ITC";
+	font-weight: bold;
+}
+#topic .option p img{
+	border: solid;
+	max-width:98%;
+}
+#regform {
+	color: white;
+	background-color: steelblue;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	font-family: "Bauhaus 93";
+}
+#regform h1{
+	font-size: 30px;
+	color: black;
+}
+#footer p {
+	color: black;
+	background-color: #eeeeee;
+	margin: 10px;
+	padding: 10px;
+	text-align: right;
+	font-family: "Bauhaus 93";
+	clear: both;
+}
